@@ -22,9 +22,10 @@ const SignUpPage = () => {
       email: userData.email,
       password: userData.password,
       name: userData.name,
+      callbackURL: "/",
     });
 
-    console.log(data, error);
+    console.log("signUp respond", { data, error });
   };
 
   return (
