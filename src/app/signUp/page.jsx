@@ -24,8 +24,9 @@ const SignUpPage = () => {
       name: userData.name,
       callbackURL: "/",
     });
+    console.log("test");
 
-    console.log("signUp respond", { data, error });
+    console.log("data and error", { data, error });
   };
 
   return (
